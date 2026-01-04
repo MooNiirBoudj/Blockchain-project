@@ -1,0 +1,22 @@
+{
+  "name": "clubgov-dao",
+  "version": "1.0.0",
+  "description": "Scientific Club DAO - Decentralized Treasury Management",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": ["dao", "ethereum", "solidity", "hardhat"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "ethers": "^6.4.0"
+  }
+}
